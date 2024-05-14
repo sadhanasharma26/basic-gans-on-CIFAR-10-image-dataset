@@ -18,4 +18,5 @@ https://www.geeksforgeeks.org/generative-adversarial-network-gan/?ref=lbp
 ## To clone this repository, use:
 
 ```diff
-
+https://github.com/sadhanasharma26/basic-gans-on-CIFAR-10-image-dataset.git
+```
