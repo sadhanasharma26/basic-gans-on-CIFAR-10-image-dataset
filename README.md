@@ -10,6 +10,15 @@ The Generator takes random noise as input and generates images, while the Discri
 By training on the CIFAR-10 dataset, the GAN learns to generate images resembling the objects in the dataset, showcasing the power of GANs in creating synthetic data.
 This code demonstrates the training process of a GAN on the CIFAR-10 dataset, showcasing the interplay between the Generator and Discriminator in generating realistic images.
 
+## About the Dataset
+The CIFAR-10 Image Dataset is a widely used benchmark dataset in the field of computer vision. It consists of 60,000 32x32 color images across 10 classes, with each class containing 6,000 images. The dataset is split into 50,000 training images and 10,000 test images, making it suitable for training and evaluating image classification models.
+
+### Key details about the CIFAR-10 dataset include:
+* Dataset Size: The CIFAR-10 dataset has a download size of 162.17 MiB and a dataset size of 132.40 MiB.
+* Features: Each image in the dataset is structured as a FeaturesDict containing an ID, the image itself (32x32x3), and a label indicating the class (int64).
+* Supervised Keys: The dataset is supervised, with keys 'image' and 'label' used for supervised learning tasks.
+* Classes: The dataset includes 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
+
 ## Reference for code & tutorial: 
 
 ```diff
