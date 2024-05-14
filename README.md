@@ -1,4 +1,4 @@
-# basic gans on CIFAR-10 image dataset
+# Basic GANS on CIFAR-10 Image Dataset
  
 ## Introduction
 The provided code implements a Generative Adversarial Network (GAN) using PyTorch to generate images. The GAN consists of a Generator and a Discriminator trained adversarially to generate realistic images. The dataset used for training is CIFAR-10, a popular dataset containing 60,000 32x32 color images in 10 classes.
